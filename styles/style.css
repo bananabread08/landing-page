@@ -10,6 +10,13 @@ html {
   box-sizing: inherit;
 }
 
+:root {
+  --cool-black: #1f2937;
+  --strong-white: #f9faf8;
+  --weak-white: #e5e7eb;
+  --cool-blue: #3882f6;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -22,8 +29,8 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #1f2937;
-  color: white;
+  background: var(--cool-black);
+  color: var(--strong-white);
   padding: 20px;
   max-height: 70px;
 }
@@ -43,9 +50,44 @@ ul li a:hover {
   text-shadow: 2px 2px 3px white;
 }
 .logo {
-  font-size: 35px;
+  font-size: 24px;
   font-weight: 700;
 }
 .right-nav a {
   font-size: 20px;
+}
+.header-cont {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: var(--cool-black);
+  padding: 70px;
+}
+header {
+  width: 500px;
+  margin-left: 150px;
+}
+.header-main {
+  font-size: 48px;
+  font-weight: bolder;
+  color: var(--strong-white);
+}
+.header-second {
+  font-size: 18px;
+  color: var(--weak-white);
+}
+.header-img {
+  min-width: 300px;
+  margin-left: 20px;
+}
+header button {
+  min-width: 150px;
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+  background: var(--cool-blue);
+  color: var(--strong-white);
+  border: 1px solid var(--cool-blue);
+  border-radius: 10px;
 }
