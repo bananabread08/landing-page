@@ -41,6 +41,7 @@ ul {
   list-style-type: none;
   display: flex;
   gap: 16px;
+  cursor: pointer;
 }
 a {
   text-decoration: none;
@@ -94,6 +95,7 @@ header button {
   color: var(--strong-white);
   border: 1px solid var(--cool-blue);
   border-radius: 10px;
+  cursor: pointer;
 }
 .main-cont {
   display: flex;
@@ -140,7 +142,7 @@ header button {
 }
 
 .action-cont {
-  padding: 50px;
+  padding: 60px;
 }
 
 .action-wrapper {
@@ -177,4 +179,14 @@ header button {
   background: var(--cool-blue);
   border: 3px solid var(--strong-white);
   border-radius: 10px;
+  cursor: pointer;
+}
+
+footer {
+  background: var(--cool-black);
+  color: var(--strong-white);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
