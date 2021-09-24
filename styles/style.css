@@ -123,3 +123,18 @@ header button {
 .cards .card-text {
   width: 200px;
 }
+
+.quote-cont {
+  background: var(--weak-white);
+  font-size: 36px;
+  font-weight: 300;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.quote-cont div {
+  font-weight: bold;
+}
